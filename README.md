@@ -32,14 +32,14 @@ bun run dev
 
 ### Web Interface
 
-Open `public/index.html` in your browser to preview and edit `.vtab` files:
+Open `docs/index.html` in your browser to preview and edit `.vtab` files:
 
 ```bash
 # Serve locally (using any HTTP server)
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000/public/`
+Then visit `http://localhost:8000/docs/`
 
 ### As a Library
 
@@ -187,7 +187,7 @@ tests/
   parser.test.ts
   layout.test.ts
   renderer.test.ts
-public/
+docs/
   index.html    – Interactive preview UI
 ```
 
